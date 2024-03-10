@@ -11,5 +11,13 @@
 }
 
 .hover-effect{
-    @apply hover:bg-gray-300 hover:rounded-3xl hover:transition duration-0;
+    @apply hover:bg-gray-300 hover:rounded-3xl hover:transition duration-75;
+}
+
+.nav-hover{
+    @apply hover:bg-gray-200 hover:transition duration-300 hover:cursor-pointer;
+}
+
+input::placeholder{
+    color: gray;
 }

@@ -18,6 +18,9 @@ module.exports = {
 
       fontSize: {
         normal: '1.28rem'
+      },
+      spacing: {
+        "100": "79%"
       }
     },
   },

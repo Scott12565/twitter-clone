@@ -1,7 +1,7 @@
-import { FaXTwitter, FaRegEnvelope }from 'react-icons/fa6';
+import { FaXTwitter }from 'react-icons/fa6';
 import { RxEnvelopeClosed } from "react-icons/rx";
 import { GoBell, GoBookmark, GoHome, GoSearch } from 'react-icons/go';
-import { RiFileListLine, RiGroupLine, RiMoreFill } from "react-icons/ri";
+import { RiMoreFill } from "react-icons/ri";
 import { BsPerson, BsCardList } from "react-icons/bs";
 import { CiCircleMore } from "react-icons/ci";
 import { BiGroup } from "react-icons/bi"
