@@ -9,7 +9,7 @@ import { BiGroup } from "react-icons/bi"
 const SideBar = () => {
 
     return ( 
-        <div className="h-full border-r border-gray-100">
+        <div className="h-full border-r border-gray-100 w-[270px] fixed">
             <div className="flex flex-col justify-start items-start">
                 <h1 id="brand" className=' mx-4 p-2.5 hover-effect'>
                         <a href="">

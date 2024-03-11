@@ -1,11 +1,9 @@
-// import useFetch from "./useFetch";
 import Posts from './Posts';
 import SideBar from './SideBar';
 import Trendings from './Trendings';
 
 const HomePage = () => {
    
-    
     return ( 
         <div className="grid justify-center grid-cols-12 sm:w-100 mx-auto h-full" >
            <div className='col-span-3' >

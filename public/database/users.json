@@ -1,56 +1,187 @@
 {
     "tweets": [
-        {
-            "id": 1,
-            "name": "",
-            "username": "",
-            "time": "20h",
-            "text": "",
-            "engage": {
-                "reply": "",
-                "repost": "",
-                "likes": "",
-                "views": ""
-            }
-        },
-        {
-            "id": 2,
-            "name": "",
-            "username": "",
-            "time": "20h",
-            "text": "",
-            "engage": {
-                "reply": "",
-                "repost": "",
-                "likes": "",
-                "views": ""
-            }
-        },
-        {
-            "id": 3,
-            "name": "",
-            "username": "",
-            "time": "20h",
-            "text": "",
-            "engage": {
-                "reply": "",
-                "repost": "",
-                "likes": "",
-                "views": ""
-            }
-        },
-        {
-            "id": 4,
-            "name": "",
-            "username": "",
-            "time": "20h",
-            "text": "",
-            "engage": {
-                "reply": "",
-                "repost": "",
-                "likes": "",
-                "views": ""
-            }
+      {
+        "id": 1,
+        "name": "John Doe",
+        "username": "johndoe123",
+        "time": "20h",
+        "text": "Just finished reading a great book!",
+        "engage": {
+          "reply": "12",
+          "repost": "8",
+          "likes": "35",
+          "views": "150"
         }
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "username": "janesmith456",
+        "time": "18h",
+        "text": "Excited to start my new project!",
+        "engage": {
+          "reply": "7",
+          "repost": "5",
+          "likes": "22",
+          "views": "100"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Alice Johnson",
+        "username": "alicej89",
+        "time": "15h",
+        "text": "Enjoying a cup of coffee on this rainy day.",
+        "engage": {
+          "reply": "3",
+          "repost": "2",
+          "likes": "15",
+          "views": "75"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Bob Williams",
+        "username": "bobwills",
+        "time": "10h",
+        "text": "Great workout session at the gym today!",
+        "engage": {
+          "reply": "10",
+          "repost": "6",
+          "likes": "28",
+          "views": "120"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Ella Brown",
+        "username": "ellabrown789",
+        "time": "5h",
+        "text": "Cooking dinner for friends tonight.",
+        "engage": {
+          "reply": "5",
+          "repost": "3",
+          "likes": "20",
+          "views": "90"
+        }
+      },
+      {
+        "id": 6,
+        "name": "Sam Johnson",
+        "username": "samj777",
+        "time": "3h",
+        "text": "Looking forward to the weekend!",
+        "engage": {
+          "reply": "8",
+          "repost": "4",
+          "likes": "30",
+          "views": "130"
+        }
+      },
+      {
+        "id": 7,
+        "name": "Emily Davis",
+        "username": "emilyd123",
+        "time": "2h",
+        "text": "Watching my favorite TV show.",
+        "engage": {
+          "reply": "6",
+          "repost": "3",
+          "likes": "25",
+          "views": "110"
+        }
+      },
+      {
+        "id": 8,
+        "name": "Mike Wilson",
+        "username": "mikew456",
+        "time": "1h",
+        "text": "Trying out a new recipe for dinner.",
+        "engage": {
+          "reply": "4",
+          "repost": "2",
+          "likes": "18",
+          "views": "80"
+        }
+      },
+      {
+        "id": 9,
+        "name": "Sophia Taylor",
+        "username": "sophiat789",
+        "time": "30m",
+        "text": "Relaxing at home with a good book.",
+        "engage": {
+          "reply": "9",
+          "repost": "5",
+          "likes": "32",
+          "views": "140"
+        }
+      },
+      {
+        "id": 10,
+        "name": "David Jones",
+        "username": "davidj456",
+        "time": "10m",
+        "text": "Heading out for a hike in the mountains.",
+        "engage": {
+          "reply": "11",
+          "repost": "7",
+          "likes": "38",
+          "views": "160"
+        }
+      },
+      {
+        "id": 11,
+        "name": "Olivia Martinez",
+        "username": "oliviam123",
+        "time": "5m",
+        "text": "Working on a new project.",
+        "engage": {
+          "reply": "8",
+          "repost": "4",
+          "likes": "29",
+          "views": "125"
+        }
+      },
+      {
+        "id": 12,
+        "name": "Daniel Clark",
+        "username": "danielc789",
+        "time": "1m",
+        "text": "Spending time with family.",
+        "engage": {
+          "reply": "7",
+          "repost": "3",
+          "likes": "22",
+          "views": "95"
+        }
+      },
+      {
+        "id": 13,
+        "name": "Emma Rodriguez",
+        "username": "emmar123",
+        "time": "10s",
+        "text": "Just got back from a road trip.",
+        "engage": {
+          "reply": "6",
+          "repost": "2",
+          "likes": "20",
+          "views": "85"
+        }
+      },
+      {
+        "id": 15,
+        "name": "William Lopez",
+        "username": "williaml789",
+        "time": "5s",
+        "text": "Enjoying the sunshine.",
+        "engage": {
+          "reply": "4",
+          "repost": "1",
+          "likes": "15",
+          "views": "70"
+        }
+      }
     ]
-}
+  }
+  

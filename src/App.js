@@ -1,9 +1,12 @@
 import HomePage from "./components/HomePage";
+import UserContextProvider from "./components/useFetch";
 
 function App() {
   return (
     <div className="">
-      <HomePage />
+      <UserContextProvider>
+        <HomePage />  
+      </UserContextProvider>
     </div>
   );
 }

@@ -1,29 +1,28 @@
-// import { useState, useEffect } from "react";
+import axios from "axios";
+import { useState, useEffect, createContext } from "react";
 
-// const useFetch = () => {
-//     const [tweets, setTweets] = useState([])
-//     const [error, setError] = useState(null);
-//     const [isLoading, setIsLoading] = useState(true);
+export const UsersContext = createContext();
 
-//     useEffect(() => {
-//         fetch('http://localhost:3001/tweets')
-//         .then(res => {
-//             if(res.status !== 200){
-//                 throw Error('failed to fetch, please try again letter');
-//             };
-//             return res.json();
-//         }).then(data => {
-//             setTweets(data);
-//             setError(null);
-//             setIsLoading(false);
-//         })
-//         .catch(err => {
-//             console.log(err);
-//             setIsLoading(false);
-//         })
-//     }, [])
+const UserContextProvider = (props) => {
+    const [data, setData] = useState([]);
+    const [error, setError] = useState(null);
 
-//     return {tweets, error, isLoading};
-// }
+    useEffect(() => {
+
+        axios.get('database/users.json')
+            .then(response => {
+                const data = response.data;
+                setData(data);
+            })
+            .catch(err => {
+                setError('Retry');
+            });
+    }, []);
+    return ( 
+        <UsersContext.Provider value={{ data, error }}>
+            {props.children}
+        </UsersContext.Provider>
+     );
+}
  
-// export default useFetch;
+export default UserContextProvider;
