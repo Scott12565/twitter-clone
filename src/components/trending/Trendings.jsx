@@ -3,7 +3,7 @@ import { IoIosMore } from "react-icons/io";
 
 const Trending = () => {
     return ( 
-        <div className="sticky top-0 ">
+        <div className="hidden md:block md:sticky top-0 ">
            {/* ceard */}
            <div className="group flex justify-start items-center bg-gray-100 m-3 rounded-3xl space-x-3 h-10 px-3 shadow-md sticky top-0">
             <div>

@@ -5,11 +5,11 @@ import Trendings from './trending/Trendings';
 const HomePage = () => {
    
     return ( 
-        <div className="grid justify-center grid-cols-12 sm:w-100 mx-auto h-full relative" >
+        <div className="w-screen block md:grid justify-center grid-cols-12 sm:w-100 mx-auto h-full relative" >
            <div className='col-span-3' >
                <SideBar />
            </div>
-           <div className=' col-span-5'>
+           <div className=' col-span-5 w-full'>
                <Posts /> 
            </div>
            <div className='col-span-4 pl-12'>

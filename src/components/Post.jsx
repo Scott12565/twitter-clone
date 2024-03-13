@@ -16,13 +16,13 @@ const Post = ({ data, error }) => {
     }
 
     return ( 
-        <div className="">
+        <div className="w-full">
             {data.tweets.map(userData => (
-                <div className="border-b border-gray-200 hover:bg-gray-200 cursor-pointer">
+                <div className="w-full border-b border-gray-200 hover:bg-gray-200 cursor-pointer" key={userData.id}>
                     <div className="w-full flex items-start tweet">
                         <div className="h-11 w-11 bg-blue-700 rounded-full mx-3  my-3"></div>
                         <div className="flex flex-col py-2 user-post ">
-                            <div className="flex justify-between items-center w-[26.5rem]">
+                            <div className="w-full flex justify-between items-center md:w-[26.5rem]">
                                 <h3 className="flex justify-between items-center space-x-1.5">
                                     <p className="font-semibold capitalize hover:underline text-black text-[.95rem] cursor-pointer">{userData.name}</p>
                                     <span className="text-gray-500 text-[.93rem] font-normal  ">{`@${userData.username} -`}</span>
@@ -34,7 +34,7 @@ const Post = ({ data, error }) => {
                                 </div>  
                             </div>
 
-                            <div className="w-[26.5rem] mt-[.2rem] text-wrap text-sm text-start text-gray-800">
+                            <div className="w-full md:w-[26.5rem] mt-[.2rem] text-wrap text-sm text-start text-gray-800">
                                 <p>{userData.text}</p>
                             </div>
 
