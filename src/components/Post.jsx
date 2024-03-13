@@ -88,7 +88,7 @@ const Post = ({ data, error }) => {
                                     </div> 
                                 </div>
 
-                                <div className="flex justify-between w-2/12">
+                                <div className="flex justify-between items-center w-11">
                                     <FaRegBookmark size={15} />
                                     <LuShare size={15} />
                                 </div>
